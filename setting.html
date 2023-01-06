@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+       <!-- IFont-Awesome icon -->
+       <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.min.css">
+       <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/v4-shims.min.css">
+       <!-- IFont-Awesome icon -->
+
+</head>
+<body>
+    
+    <div class="nav">
+        <!-- Bar and Logo -->
+        <div class="bar_logo">
+            <div class="bars" onclick="nav()">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="img">
+                <img src="image/logo_white.png" alt="">
+            </div>
+        </div>
+        <!-- Bar and Logo -->
+
+        <!-- avatar -->
+            <div class="avatar_icon">
+
+
+                <!-- bell --> 
+                <div class="bell">
+                        <i class="fa fa-bell"></i>
+                </div>
+                <!-- bell -->
+
+                <!-- Search --> 
+                <div class="search">
+                            <span class="fa fa-search"></span>
+                </div>
+                    <!-- Search -->
+
+              <!-- Main Icon -->
+              <div class="avatar_img_holder">
+                <div class="avatar_img">
+                    <img id="input_img" src="image/Timmy.jpg" alt="">
+                </div>
+                <h2>Timmy</h2>
+            </div>
+            <!-- Main Icon -->
+        </div>
+        <!-- avatar -->
+
+    </div>
+
+
+
+    <!-- Body -->
+
+    <div class="main_body">
+        <div class="side_nav" id="sideNav">
+
+            <div class="side_nav_img_holder">
+                <!-- Main Icon -->
+              <div class="avatar_img_holder">
+                <div class="avatar_img">
+                    <img id="input_img" src="image/Timmy.jpg" alt="">
+                </div>
+            </div>
+            <!-- Main Icon -->
+                <!-- <img src="image/logo.png" alt="">  -->
+                <i class="fa fa-arrow-left" onclick="back()"></i>
+            </div>
+
+            <ul>
+                <div class="side_nav_2">
+                <a href="index.html"> <i class="fa fa-dashboard  "></i> Dashboard </a>
+                <a href="items.html"> <i class="fa fa-table-cells-large"></i> Items</a>
+                <!-- <a href="#"><i class="fa fa-shopping-cart"></i>Products</a> -->
+                <a href="categories.html"><i class="fa fa-align-left"></i>Categories</a>
+                <a href="#"><i class="fa fa-chart-column"></i>Reports</a>
+                <a href="setting.html" class="active"><i class="fa fa-gear"></i>Settings</a>
+                </div>
+            </ul>
+
+        </div>
+
+        
+        <div class="mini_body">
+       
+
+     <!-- Item Header -->
+     <div class="item_main_div">
+            <div class="settings">
+               
+                <div class="setting_avatar">
+                    <div class="user_img">
+                        <img src="image/Timmy.jpg" alt="" id="user">
+                    </div>
+                    <div class="user_name">
+                        <p id="user_name">Username: </p>
+                        <p id="main_name">Egbetokun Timilehin</p>
+                    </div>
+                </div>
+
+                <!-- Form Section -->
+    <div class="change_section">
+           
+        <div class="change_profile">
+            <div class="user_img" id="mini_ser_img">
+                <img id="input_img" src="image/Timmy.jpg" alt="" id="user">
+            </div>
+            <div class="user_name">
+                <!-- <p id="user_name">Username: </p> -->
+                <p id="main_name">Egbetokun Timilehin</p>
+            </div>
+        </div>
+
+        <form action="" method="post">
+            <!-- Name -->
+            <div class="name">
+                <input type="text" name="name" id="name" required/>
+                <label for="name" class="label-name">
+                    <span class="content-name">Username</span>
+                </label>
+            </div>
+            <!-- Name -->
+
+              <!-- Name -->
+              <div class="name">
+                <input type="text" name="name" id="name" required/>
+                <label for="name" class="label-name">
+                    <span class="content-name">Name</span>
+                </label>
+            </div>
+            <!-- Name -->
+
+           <!-- Name -->
+            <div class="email">
+                <input type="email" name="email" id="email" required/ autocomplete="">
+                <label for="email" class="label-name">
+                    <span class="content-name">Email</span>
+                </label>
+            </div>
+            <!-- Name -->
+
+           
+
+            <div class="name">
+                <input type="file" name="image" id="" accept="image">
+            </div>
+            <!-- Name -->
+
+            <!-- Button -->
+            <div class="button">
+                <button id="login">Update</button>
+            </div>
+            <!-- Button -->
+
+         
+        </form>
+    </div>
+    <!-- End Of Form Section -->
+
+            </div>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
